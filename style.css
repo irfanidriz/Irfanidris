@@ -1,0 +1,37 @@
+body{
+    min-height: 2000px;
+}
+
+
+
+.jumbotron {
+    padding: 2rem 1rem;
+    background-image: url(img/3.svg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar-nav a:hover {
+    color: var(--primary);
+}
+
+.navbar-nav a::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1 rem solid var(--primary);
+}
+
+.fixed-footer {
+    width: 100%;
+    position: relative;
+    background: #333;
+    margin: 0 10px 10px 0;
+    padding: 10px 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .fixed-footer {
+    bottom: 0;
+  }
